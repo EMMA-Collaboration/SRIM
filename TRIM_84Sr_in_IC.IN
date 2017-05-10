@@ -1,0 +1,60 @@
+==> SRIM-2013.00 This file controls TRIM Calculations.
+Ion: Z1 ,  M1,  Energy (keV), Angle,Number,Bragg Corr,AutoSave Number.
+    38 83.8927    169463.254      0     500 .9909037      100
+Cascades(1=No;2=Full;3=Sputt;4-5=Ions;6-7=Neutrons), Random Number Seed, Reminders
+                      1                                   0       0
+Diskfiles (0=no,1=yes): Ranges, Backscatt, Transmit, Sputtered, Collisions(1=Ion;2=Ion+Recoils), Special EXYZ.txt file
+                          0       0           1       0               0                               0
+Target material : Number of Elements & Layers
+"Sr (10) into Polyethylene+Al backing+Myl "      23              11
+PlotType (0-5); Plot Depths: Xmin, Xmax(Ang.) [=0 0 for Viewing Full Target]
+       0                         0    4.650055E+09
+Target Elements:    Z   Mass(amu)
+Atom 1 = H =       1   1.008
+Atom 2 = C =       6  12.011
+Atom 3 = Al =      13  26.982
+Atom 4 = H =       1   1.008
+Atom 5 = C =       6  12.011
+Atom 6 = O =       8  15.999
+Atom 7 = Al =      13  26.982
+Atom 8 = H =       1   1.008
+Atom 9 = C =       6  12.011
+Atom 10 = Al =      13  26.982
+Atom 11 = H =       1   1.008
+Atom 12 = C =       6  12.011
+Atom 13 = O =       8  15.999
+Atom 14 = C =       6  12.011
+Atom 15 = O =       8  15.999
+Atom 16 = N =       7  14.007
+Atom 17 = Ar =      18  39.948
+Atom 18 = Al =      13  26.982
+Atom 19 = H =       1   1.008
+Atom 20 = C =       6  12.011
+Atom 21 = O =       8  15.999
+Atom 22 = H =       1   1.008
+Atom 23 = C =       6  12.011
+Layer   Layer Name /               Width Density      H(1)    C(6)  Al(13)    H(1)    C(6)    O(8)  Al(13)    H(1)    C(6)  Al(13)    H(1)    C(6)    O(8)    C(6)    O(8)    N(7)  Ar(18)  Al(13)    H(1)    C(6)    O(8)    H(1)    C(6)
+Numb.   Description                (Ang) (g/cm3)    Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich  Stoich
+ 1      "Polyethylene"           5376.344  .93 .666667 .333333       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+ 2      "Al backing"           200  2.702       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+ 3      "Mylar (ICRU-222)"           9000  1.3923       0       0       0 .363636 .454545 .181818       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+ 4      "Al backing"           200  2.702       0       0       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+ 5      "Butane, n-Butane (ICRU-340)"           800000000  .00000652       0       0       0       0       0       0       0 .714286 .285714       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+ 6      "Al backing"           200  2.702       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       0       0       0       0       0       0       0       0
+ 7      "Mylar (ICRU-222)"           20000  1.3923       0       0       0       0       0       0       0       0       0       0 .363636 .454545 .181818       0       0       0       0       0       0       0       0       0       0
+ 8      "Air, Dry (ICRU-104)"           350000000  .00000001       0       0       0       0       0       0       0       0       0       0       0       0       0  .00015 .210756 .784423 .004671       0       0       0       0       0       0
+ 9      "Al backing"           200  2.702       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0
+ 10     "Mylar (ICRU-222)"           20000  1.3923       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0 .363636 .454545 .181818       0       0
+ 11     "Butane, n-Butane (ICRU-340)"           385000000  .00006624       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0 .714286 .285714
+0  Target layer phases (0=Solid, 1=Gas)
+0 0 0 0 0 0 0 0 0 0 1 
+Target Compound Corrections (Bragg)
+ .9843957   1   .9570329   1   .9909037   1   .9570329   1   1   .9570329   .9909037  
+Individual target atom displacement energies (eV)
+      10      28      25      10      28      28      25      10      28      25      10      28      28      28      28      28       5      25      10      28      28      10      28
+Individual target atom lattice binding energies (eV)
+       3       3       3       3       3       3       3       3       3       3       3       3       3       3       3       3       1       3       3       3       3       3       3
+Individual target atom surface binding energies (eV)
+       2    7.41    3.36       2    7.41       2    3.36       2    7.41    3.36       2    7.41       2    7.41       2       2       2    3.36       2    7.41       2       2    7.41
+Stopping Power Version (1=2011, 0=2011)
+ 0 
